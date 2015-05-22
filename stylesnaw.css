@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #FFFFF0;
+}
+
+.baner {
+	background: url(img/bannerX.jpeg) repeat-y #FDF5E6;
+	height: 168px;
+	margin: 10px 100px;
+	text-align: center;
+	font-weight: bolder;
+	font-family: Agatha-Modern;
+	font-size: 30px;
+	color: green;
+}
+.akc {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	font-family: verdana;
+	font-size: 20px;
+	width: 168px;
+	height: 100px;
+	color: blue;
+	background: rgba(997, 993, 982, 0.5);
+}
+
+.akc::first-line {
+	text-decoration: underline;
+	color: red;
+}
+
+#menu {
+	margin: 0 auto 40px;
+	text-align: center;
+}
+
+#menu ul {
+	font: 14px Arial;
+	display: inline-table;
+	position: relative;
+}
+
+#menu li {
+	float: left;
+	list-style: none;
+	width: 140px;
+	text-align: center;
+}
+
+#menu li a {
+	text-decoration: none;
+	display: block;
+	color: green;
+	background: #FDF5E6;
+	padding: 10px;
+}
+
+#menu li a:hover {
+	color: #575757;
+	background: #c0c0c0;
+}
+
+#menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#menu ul ul li {
+	float: none;
+	position: relative;
+}
+
+#menu ul ul ul {
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+
+#menu ul li:hover > ul {
+	display: block;
+}
+
+

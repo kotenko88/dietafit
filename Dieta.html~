@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" name="description" content="диета фитнес фигура питание">
+    <title>You ideal</title>
+    <link rel="stylesheet" type="text/css" href="stylesnaw.css">
+    </head>
+    <body>
+        <div class="baner">НАЧНИ ЖИТЬ ПРАВИЛЬНО, ПОДБЕРИ СЕБЕ ДИЕТУ!
+		<div class="akc">АКЦИЯ<br>скидки на консультацию 20% до 31.05
+		</div>
+	</div>
+	<div id="menu">
+			<ul>
+				<li><a href="Dieta.html">ГЛАВНАЯ</a></li>
+				<li><a href="#">РАЗДЕЛЫ</a>
+					<ul>
+						<li><a href="pages/news.html">НОВОСТИ</a></li>
+						<li><a href="pages/article.html">СТАТЬИ</a></li>
+						<li><a href="pages/aboutme.html">ОБО МНЕ</a></li>
+					</ul>				
+				</li>
+				<li><a href="#">ПРОГРАММЫ</a>
+					<ul>
+						<li><a href="pages/training.html">ТРЕНИРОВКИ</a></li>
+						<li><a href="pages/nutrition.html">ПИТАНИЕ</a></li>
+				</li>
+				<li><a href="pages/calories.html">СЧЕТЧИК КАЛОРИЙ</a></li>
+			</ul>
+		</div>
+        <h1 align="center">ТЫ-ИДЕАЛ!</h1> 
+        <div align="center">
+            <img src="img/activ%20icon.jpg">
+        </div>
+        <div align="right" id="trademark">е-mail: supergirl2013@mail.ru<br>тел: 067-639-08-73<br>инстаграмм: novoe_telo<br>Copyright &copy; 2015 Спортивная диета "YOU-IDEAL"
+        </div>
+    </body>
+</html>
